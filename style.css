@@ -159,7 +159,6 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 20;
-   
 }
 nav .nav-wrapper {
     height: 100px;
@@ -704,4 +703,18 @@ footer .footer-content .social-icons a {
     opacity: 0;
     transition: all 300ms ease;
     cursor: pointer;
+  }
+
+  @media screen and (max-width : 550px) {
+    .our-coffee .block:hover .block-text {
+        opacity: 1;
+    }
+
+    .overlay {
+        opacity: 0.5;
+    }
+    
+    .text {
+        opacity: 1;
+    }
   }
