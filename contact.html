@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen Silva Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"  referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="logo">
+                <a href="index.html "> <img src="assets/logo.png" alt="Site Logo" /></a>
+            </div>
+            <div class="menu-desktop">
+                <div class="menu">
+                    <ul class="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-coffee.html">Our Recipes</a></li>
+                        <li><a href="our-coffee.html">Our Coffee</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="media">
+                <a href="mailto:coffeewithcarmen@test.com">
+                    <i class="far fa-envelope-open"></i>            
+                </a>
+                <a href="Tel:0721238">
+                    <i class="fas fa-mobile-alt"></i>
+                </a>
+                <a href="https://www.google.com/maps/place/Lethe+Grove,+Colchester+CO2+8RG/@51.8591753,0.9002177,17z/data=!3m1!4b1!4m5!3m4!1s0x47d904d084f5b74f:0x9ea9a706e55c42ef!8m2!3d51.8590563!4d0.9024441" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+
+            </div>
+            <input type="checkbox" id="drop-menu" />
+            <label class="menu-button" for="drop-menu">
+                <i class="far fa-caret-square-down"></i>   
+            </label>
+            
+            <div class="menu-mobile">
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="our-recipe.html">Our Recipes</a></li>
+                    <li><a href="our-coffee.html">Our Coffee</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    <div id="content" class="contact-page">
+        
+        <section class="intro-block">
+            <div class="intro-block-wrapper flex m-flex-column">
+                <div class="intro-block-left w-50 m-w-100">
+                    <h2 class="intr-block-title mb-20">
+                        <span class="highlight">Contact</span> us ...
+                    </h2>
+                    <form>
+                        <div class="name flex flex-column mb-10">
+                            <label class="mb-5">Name</label>
+                            <input type="text" placeholder="John Doe" class="p-5" required/>
+                        </div>
+                        <div class="email-address flex flex-column mb-10">
+                            <label class="mb-5">Email-address</label>
+                            <input type="email" placeholder="email@example.com" class="p-5" required/>
+                        </div>
+                        <div class="message flex flex-column mb-20">
+                            <label class="mb-5">Message</label>
+                            <textarea rows="4" cols="35"  placeholder="Your message here..." class="p-5" required></textarea>
+                        </div>
+                        <input type="submit" class="radius-button " />
+                    </form>
+                </div>
+                <div class="intro-block-right w-50 m-w-100">
+                 <img src="assets/coffee-meeting.jpg" alt="a coffee image"/> 
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2022 Carmen Gubernu</p>
+            <div class="social-icons">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
