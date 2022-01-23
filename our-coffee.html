@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"  referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" data-aos="fade-down">
             <div class="logo">
                 <a href="index.html "> <img src="assets/logo.png" alt="Site Logo" /></a>
             </div>
@@ -55,18 +57,18 @@
         </div> 
     </nav>
     <div id="content" class="our-coffee">
-        <div class="page-title"> Our Coffee </div>
+        <div class="page-title" data-aos="fade-up"> Our Coffee </div>
         <section class="card-block">
             
             <div class="card-block-wrapper">
-                <div class="block card1">
+                <div class="block card1" data-aos="fade">
                     <div class="block-text">
                         <p>Cold Brew</p>
                     </div>
                     <div class="overlay"></div>
                     <div class="text">Cold brewing is a method of brewing that combines ground coffee and cool water and uses time instead of heat to extract the flavor. </div>
                 </div>
-                <div class="block card2">
+                <div class="block card2" data-aos="fade">
                     <div class="block-text">
                         <p>Flatt White</p>
                     </div> 
@@ -74,7 +76,7 @@
                     </div>   
                     <div class="text">The flat white coffee is an espresso-based coffee drink accompanied with steamed milk and microfoam.  </div>
                 </div>
-                <div class="block card3">
+                <div class="block card3" data-aos="fade">
                     <div class="block-text">
                         <p>Macchiato</p>
                     </div>
@@ -82,7 +84,7 @@
                     </div>    
                     <div class="text">The macchiato is an espresso coffee drink, topped with a small amount of foamed or steamed milk to allow the taste of the espresso to still shine through. </div>                      
                 </div>
-                <div class="block card4">
+                <div class="block card4" data-aos="fade">
                     <div class="block-text">
                         <p>Frappe</p>
                     </div>   
@@ -104,5 +106,8 @@
             </div>
         </div>
     </footer>
+    <script> AOS.init({
+        duration: 1200,
+      }) </script>
 </body>
 </html>
