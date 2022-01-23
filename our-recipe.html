@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"  referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" data-aos="fade-down">
             <div class="logo">
                 <a href="index.html "> <img src="assets/logo.png" alt="Site Logo" /></a>
             </div>
@@ -55,10 +58,10 @@
         </div> 
     </nav>
     <div id="content" class="about-page">
-        <div class="page-title"> Our Recipes </div>
+        <div class="page-title" data-aos="fade-up"> Our Recipes </div>
         <section class="intro-block">
             <div class="intro-block-wrapper flex m-flex-column">
-                <div class="intro-block-left w-50 m-w-100 p-20">
+                <div class="intro-block-left w-50 m-w-100 p-20" data-aos="fade-right">
                     <h2 class="intr-block-title">
                         <span class="highlight">Cold Brew</span> 
                     </h2>
@@ -67,18 +70,18 @@
                     </p>
                     
                 </div>
-                <div class="intro-block-right w-50 m-w-100">
+                <div class="intro-block-right w-50 m-w-100" data-aos="fade">
                     <img src="assets/Cold-brew.webp" alt="a coffee image"/>   
                 </div>
             </div>
         </section>
 
         <section class="out-block">
-            <div class="out-block-wrapper flex m-flex-column-reverse">
+            <div class="out-block-wrapper flex m-flex-column-reverse" data-aos="fade">
                 <div class="out-block-left w-50 m-w-100 ">
                     <img src="assets/Frappuccino.webp" alt="a coffee image"/> 
                    </div>
-                <div class="out-block-right w-50 m-w-100">
+                <div class="out-block-right w-50 m-w-100" data-aos="fade-left">
                     <h2 class="out-block-title">
                         <span class="highlight">Frappe</span>  
                     </h2>
@@ -94,7 +97,7 @@
         
         <section class="intro-block">
             <div class="intro-block-wrapper flex m-flex-column">
-                <div class="intro-block-left w-50 m-w-100 p-20">
+                <div class="intro-block-left w-50 m-w-100 p-20" data-aos="fade-right">
                     <h2 class="intr-block-title">
                         <span class="highlight">Flatt White</span> 
                     </h2>
@@ -103,7 +106,7 @@
                     </p>
                     
                 </div>
-                <div class="intro-block-right w-50 m-w-100">
+                <div class="intro-block-right w-50 m-w-100" data-aos="fade">
                     <img src="assets/flatwhite.jpeg" alt="a coffee image"/>   
                 </div>
             </div>
@@ -111,10 +114,10 @@
         
         <section class="out-block">
             <div class="out-block-wrapper flex m-flex-column-reverse">
-                <div class="out-block-left w-50 m-w-100 ">
+                <div class="out-block-left w-50 m-w-100 " data-aos="fade">
                     <img src="assets/Macchiato.webp" alt="a coffee image"/> 
                    </div>
-                <div class="out-block-right w-50 m-w-100">
+                <div class="out-block-right w-50 m-w-100" data-aos="fade-left">
                     <h2 class="out-block-title">
                         <span class="highlight">Machiatto</span>  
                     </h2>
@@ -136,5 +139,8 @@
             </div>
         </div>
     </footer>
+    <script> AOS.init({
+        duration: 1200,
+      }) </script>
 </body>
 </html>
